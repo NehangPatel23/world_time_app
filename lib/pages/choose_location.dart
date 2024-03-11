@@ -18,14 +18,6 @@ class _ChooseLocationState extends State<ChooseLocation> {
         centerTitle: true,
         elevation: 0,
       ),
-      // body: ElevatedButton(
-      //   onPressed: () {
-      //     setState(() {
-      //       counter += 1;
-      //     });
-      //   },
-      //   child: Text('Counter is: $counter'),
-      // ),
     );
   }
 }
