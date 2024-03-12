@@ -18,13 +18,11 @@ class WorldTime {
       Response response =
           await get(Uri.parse('http://worldtimeapi.org/api/timezone/$url'));
       Map data = jsonDecode(response.body);
-      print(data);
 
       // Get the necessary properties from the data
       String datetime = data['datetime'];
       String offset = data['utc_offset'].substring(1, 3);
       String plusOrMinus = data['utc_offset'].substring(0, 1);
-      print(plusOrMinus);
 
       // Create a datetime object
       DateTime now = DateTime.parse(datetime);
