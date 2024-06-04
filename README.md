@@ -1,6 +1,6 @@
 # Flutter World Time App
 
-A simple web/mobile (Android) application to view the World Time, implemented using Flutter. This
+A simple web/mobile application to view the World Time, implemented using Flutter. This
 application was developed using the basic concepts of Flutter and the Dart programming language.
 
 ## Table of Contents
@@ -124,7 +124,7 @@ free to ask for further assistance!
 
 ## Usage
 
-Using this application is quite starightforward. Once you launch the application on your emulator or
+Using this application is quite straightforward. Once you launch the application on your emulator or
 web, you will see a screen similar to the following:
 
 ![alt text](assets/image.png)
